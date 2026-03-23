@@ -1,8 +1,6 @@
 ---
 title: Includes
-description: A includes reference.
+description: An includes reference.
 ---
 
-# Includes
-
-The `includes` directory serves as a location for housing libraries which are used by the scripts to parse the information required to build validation scripts, mobileconfig files, and guide documents.
+The `includes` directory contains libraries that the scripts use to parse the information required to build validation scripts, mobileconfig files, and guide documents.

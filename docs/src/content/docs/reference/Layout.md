@@ -3,9 +3,7 @@ title: Layout
 description: A layout reference.
 ---
 
-# Directories
-
-## Layout
+## Directory layout
 
 ```
 baselines/  ---> Baseline profiles containing all the rules
@@ -35,10 +33,10 @@ The baselines directory contains the defined baseline files for:
 * A baseline for all the rules in this repository
 
 ### build
-The build directory is where generated outputs (eg documents, mobileconfig) will be saved.
+The build directory stores generated outputs (e.g., documents, mobileconfig).
 
 ### custom
-The custom directory is used for creating tailored versions of the rules and sections files, to meet an organization’s requirements. The YAML files placed within this folder will take priority when running generate_guidance.py.
+Use the custom directory to create tailored versions of the rules and sections files to meet your organization's requirements. YAML files in this folder take priority when you run generate_guidance.py.
 
 **📌 NOTE**\
 The filenames must remain the same as the original YAML filenames.
@@ -51,20 +49,20 @@ The rules directory includes the following categories of control settings for co
 
 * audit - configuration and enforcement of the OpenBSM settings.
 * auth - configuration and enforcement of smartcard authentication.
-* icloud - configuration of Apple’s iCloud/Apple ID service.
+* icloud - configuration of Apple's iCloud/Apple ID service.
 * os - rules to configure the operating system that are not defined within other categories of the rules directory.
 * pwpolicy - configuration and enforcement of password policy.
-* supplemental - additional information to support the guidance provided by the baselines. 
+* supplemental - additional information to support the guidance provided by the baselines.
 * system_settings (sysprefs on macOS Monterey and older) - configuration and enforcement of settings controlled within the System Settings/System Preferences application.
 
 ### SCAP
-The SCAP directory is where required Extensible Stylesheet Language Transformations(XSL) files are stored, along with the CPE oval and definition, and scripts to generate an SCAP document.
+The SCAP directory stores required Extensible Stylesheet Language Transformations (XSL) files, the CPE oval and definition, and scripts to generate an SCAP document.
 
 ### scripts
-The scripts directory is where scripts that will be used to create specific baselines are stored, along with the required files for them.
+The scripts directory stores scripts for creating specific baselines, along with the required files for them.
 
 ### sections
-The sections directory is used to define the different sections that correlate to the different directories in the rules folder. The YAML files contain the name and descriptions as they will appear in the generated guide.
+The sections directory defines the different sections that correlate to the directories in the rules folder. The YAML files contain the name and descriptions as they appear in the generated guide.
 
 ### templates
 The templates directory includes AsciiDoc templates for generating an AsciiDoc guide.

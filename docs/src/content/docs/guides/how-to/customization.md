@@ -3,14 +3,14 @@ title: Customization
 description: A customization reference.
 ---
 
-The project supports modifying existing rules and adding new rules to a baseline, to meet an organizations requirements. For existing rules, only the fields that are being customized need to remain — this ensures that your custom rules will continue working as the project is updated (including updates to meet the needs of future OS releases). Where [tailoring](https://github.com/usnistgov/macos_security/wiki/Tailoring) is used to select which rules to include in a benchmark, customizing is modifying the rules themselves.
+The project supports modifying existing rules and adding new rules to a baseline to meet your organization's requirements. For existing rules, keep only the fields you are customizing — this ensures that your custom rules continue working as the project updates (including updates for future OS releases). Where [tailoring](https://github.com/usnistgov/macos_security/wiki/Tailoring) selects which rules to include in a benchmark, customizing modifies the rules themselves.
 
 To modify an existing rule do the following:
 
-1. Copy the existing rule file to the `custom` folder. The name must rename the same.
-2. Remove any fields that don’t need to be modified.
-3. Modify the fields that meet your organizational defined values.
-4. Run `generate_guidance.py`, the custom version of the rule will be added to the output.
+1. Copy the existing rule file to the `custom` folder. The name must remain the same.
+2. Remove any fields that you don't need to modify.
+3. Modify the fields to match your organization's defined values.
+4. Run `generate_guidance.py`. The custom version of the rule appears in the output.
 
 **Example (Configure macOS to Use an Authorized Time Server)**
 
@@ -25,7 +25,7 @@ references:
      - MDM
 ```
 
-To add an new rule, follow these steps:
+To add a new rule, follow these steps:
 
 1. Create a new rules.yaml file in the `custom` folder.
    1. If the rule contains a configuration profile payload not in the project, add the new payload to `supported_payloads.yaml` in the `includes` folder.
@@ -34,7 +34,7 @@ To add an new rule, follow these steps:
 
 **Use Case:**
 
-If you want to include a custom version of rule that still explains the control, but do not want to include a check, result, or fix see below. By adding the `manual` tag to the custom rule will also ensure it does not show up in the compliance script.
+If you want to include a custom version of a rule that still explains the control but does not include a check, result, or fix, see below. Adding the `manual` tag to the custom rule also ensures it does not appear in the compliance script.
 
 **Example Rule (No Check/Result/Fix)**
 

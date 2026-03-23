@@ -3,7 +3,7 @@ title: Generate Mapping
 description: A generate-mapping reference.
 ---
 
-The generate mapping script allows you to quickly create custom rules and baselines for a compliance framework not published by the project. This is achieved by creating a CSV that contains controls from one framework (Column 1) to one supported by the project (Column 2). 
+The generate mapping script allows you to quickly create custom rules and baselines for a compliance framework not published by the project. To do this, create a CSV that maps controls from one framework (Column 1) to one supported by the project (Column 2).
 
 **CSV Format**
 ```csv
@@ -14,7 +14,7 @@ The generate mapping script allows you to quickly create custom rules and baseli
 3.1.4,AC-5
 ```
 
-By default, the script is designed to map a framework to NIST SP 800-53r5. Adding `-f` allows you to map to another supported framework.
+By default, the script maps a framework to NIST SP 800-53r5. Add `-f` to map to another supported framework.
 
 **Generate custom rule files**
 ```
