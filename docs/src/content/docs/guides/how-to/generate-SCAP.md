@@ -8,11 +8,11 @@ To generate SCAP, OVAL, or XCCDF run the `generate_scap.py` script.
 **❗ IMPORTANT**\
 Never work off the `main` branch, always `git checkout` one of the OS branches.
 
-When running the `generate_scap.py` with no arguments, it will generate an SCAP 1.3 document with an XCCDF profile for every baseline available as a tag in the `rules` and `custom` folder.
+When you run `generate_scap.py` with no arguments, it generates an SCAP 1.3 document with an XCCDF profile for every baseline available as a tag in the `rules` and `custom` folder.
 
-Running `generate_scap.py` with the `-x` argument it will generate an XCCDF document and running `generate_scap.py` with the `-o` argument will generate an OVAL document.
+Run `generate_scap.py` with the `-x` argument to generate an XCCDF document, or with the `-o` argument to generate an OVAL document.
 
-Documents can be generated for just a specific baseline using the `-b` argument. The baselines that the `generate_scap.py` scripts sees are tags that are listed on rule files in `rules` and in `custom`. The baselines can be listed with the `-l` argument.
+To generate documents for a specific baseline, use the `-b` argument. The baselines that `generate_scap.py` recognizes are tags listed on rule files in `rules` and `custom`. You can list available baselines with the `-l` argument.
 
 **Built-in Baseline**
 
@@ -34,7 +34,7 @@ cnssi-1253
 stig
 ➜  macos_security git:(ventura) ./scripts/generate_scap.py -b stig -x
 ```
-This would generate an XCCDF document in the `build` folder for just the stig baseline.
+This generates an XCCDF document in the `build` folder for just the stig baseline.
 
 ## SCAP References
 

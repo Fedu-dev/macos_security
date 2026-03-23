@@ -3,17 +3,15 @@ title: Sections
 description: A sections reference.
 ---
 
-# Sections
-
-The `sections` directory contains YAML files that are used to define different sections of your guide.
+The `sections` directory contains YAML files that define different sections of your guide.
 
 **name**
 
-This is the name of the section as it would appear in the guide.
+The name of the section as it appears in the guide.
 
 **description**
 
-The description of each section as it would appear in the guide.
+The description of each section as it appears in the guide.
 
 ## Sections Included
 ```
@@ -31,7 +29,7 @@ The description of each section as it would appear in the guide.
 . systempreferences
 ```
 
-## Example:
+## Example
 
 ```
   name: "iCloud"

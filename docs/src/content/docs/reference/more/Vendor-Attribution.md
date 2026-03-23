@@ -1,6 +1,6 @@
 ---
-title: Vendor-Attribution
-description: A vendor-attribution reference.
+title: Vendor Attribution
+description: A vendor attribution reference.
 ---
 
 The following vendors have contributed to or implemented various portions of the macOS Security Compliance Project in their products.

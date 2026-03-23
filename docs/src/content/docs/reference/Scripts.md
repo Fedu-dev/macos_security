@@ -5,7 +5,7 @@ description: A scripts reference.
 
 ## generate_guidance.py script
 
-The generate_guidance script is used to generate the following:
+The generate_guidance script generates the following:
 
 * AsciiDoc document
 * HTML guide from asciidoc
@@ -14,7 +14,7 @@ The generate_guidance script is used to generate the following:
 * Compliance Script
 * Excel Document
 
-When running generate guidance, the first argument given must be the baseline desired to create the asciidoc, PDF, and HTML files.
+When running generate guidance, pass the desired baseline as the first argument to create the AsciiDoc, PDF, and HTML files.
 
 ```bash
 python3 ./scripts/generate_guidance.py -h
@@ -47,7 +47,7 @@ Generating PDF file from AsciiDoc...
 
 ## generate_baseline.py
 
-The generate baseline script creates a baseline.yaml which can be used for content generation. The output file can be found under `build/baselines`
+The generate baseline script creates a baseline.yaml file that you can use for content generation. The output file is saved under `build/baselines`.
 
 ```bash
 python3 scripts/generate_baseline.py -h
@@ -65,7 +65,7 @@ optional arguments:
 ```
 
 **📌 NOTE**\
-If the script is called without any flags it will provide a list of all possible keywords.
+If you call the script without any flags, it provides a list of all possible keywords.
 
 **Example:**
 ```

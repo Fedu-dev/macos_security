@@ -3,7 +3,7 @@ title: Rules
 description: A rules reference.
 ---
 
-# Rules YAML Format
+## YAML format
 
 **id**
 The id should match the file name, without the yaml file extension.
@@ -38,7 +38,7 @@ Tags are keywords used to categorize and identify related rules and can be added
 **mobileconfig**
 The `mobileconfig` and `mobileconfig_info` are related. If `mobileconfig` is set to "true", the information required for creating the mobileconfig configuration profile is required in the `mobileconfig_info` area. 
 
-## Example:
+## Example
 
 ```
 id: system_settings_screensaver_timeout_enforce

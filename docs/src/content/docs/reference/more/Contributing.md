@@ -3,13 +3,11 @@ title: Contributing
 description: A contributing reference.
 ---
 
-# How to contribute to the macOS Security Compliance Project
-
 ## Operating Rules
 These operating rules describe and govern NIST’s management of this repository and contributors’ responsibilities. NIST reserves the right to modify this policy at any time.
 
 ## Criteria for Contributions and Feedback
-This is a moderated platform. NIST will only accept contributions that are contribute per the terms of the license file. Contributors may submit links or materials for hosting in the repository. Upon submission, materials will be public and considered publicly available information, unless noted in the license file. 
+This is a moderated platform. NIST only accepts contributions that are submitted per the terms of the license file. Contributors may submit links or materials for hosting in the repository. Upon submission, materials will be public and considered publicly available information, unless noted in the license file. 
 
 NIST reserves the right to reject, remove, or edit any contribution or feedback, including anything that: 
 
@@ -59,7 +57,7 @@ A good feature request or bug report will help our team assess the issue submitt
 4. What actually happens (if it’s a bug report)
 5. Any additional notes
 
-Issues submitted that are single words or irrelevant to the development of the project
+Issues submitted that are single words or irrelevant to the development of the project may be closed without action.
 
 ## Contributing Code
 
