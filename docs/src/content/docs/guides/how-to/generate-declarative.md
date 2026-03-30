@@ -5,7 +5,7 @@ description: A generate-declarative-components reference.
 
 Add the `-D` flag to the `generate_guidance.py` script to generate all the necessary components for rules that support declarative device management (DDM). Depending on the configurations you choose, the output may differ.
 
-**Generate DDM content**
+**Generate DDM Content**
 
 `➜  macos_security git:(sequoia) ./scripts/generate_guidance.py -D baselines/all_rules.yaml -p -s`
 
