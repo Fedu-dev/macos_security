@@ -3,9 +3,9 @@ title: Customization
 description: A customization reference.
 ---
 
-The project supports modifying existing rules and adding new rules to a baseline to meet your organization's requirements. For existing rules, keep only the fields you are customizing — this ensures that your custom rules continue working as the project updates (including updates for future OS releases). Where [tailoring](https://github.com/usnistgov/macos_security/wiki/Tailoring) selects which rules to include in a benchmark, customizing modifies the rules themselves.
+The project supports modifying existing rules and adding new rules to a baseline to meet your organization's requirements. For existing rules, keep only the fields you are customizing. This ensures that your custom rules continue working as the project updates, including updates for future OS releases. Where [tailoring](https://github.com/usnistgov/macos_security/wiki/Tailoring) selects which rules to include in a benchmark, customizing modifies the rules themselves.
 
-To modify an existing rule do the following:
+To modify an existing rule, do the following:
 
 1. Copy the existing rule file to the `custom` folder. The name must remain the same.
 2. Remove any fields that you don't need to modify.

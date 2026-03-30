@@ -7,7 +7,7 @@ description: A contributing reference.
 These operating rules describe and govern NIST’s management of this repository and contributors’ responsibilities. NIST reserves the right to modify this policy at any time.
 
 ## Criteria for Contributions and Feedback
-This is a moderated platform. NIST only accepts contributions that are submitted per the terms of the license file. Contributors may submit links or materials for hosting in the repository. Upon submission, materials will be public and considered publicly available information, unless noted in the license file. 
+This is a moderated platform. NIST only accepts contributions submitted per the terms of the license file. Contributors may submit links or materials for hosting in the repository. Upon submission, materials become public and are considered publicly available information, unless noted in the license file. 
 
 NIST reserves the right to reject, remove, or edit any contribution or feedback, including anything that: 
 

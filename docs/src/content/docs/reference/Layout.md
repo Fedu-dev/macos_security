@@ -3,7 +3,7 @@ title: Layout
 description: A layout reference.
 ---
 
-## Directory layout
+## Directory Layout
 
 ```
 baselines/  ---> Baseline profiles containing all the rules

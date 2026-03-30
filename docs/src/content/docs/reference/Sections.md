@@ -36,5 +36,5 @@ The description of each section as it appears in the guide.
   description: |
     This section contains the configuration and enforcement of iCloud and the Apple ID service settings.
 
-    NOTE: The check/fix commands outlined in this section _MUST_ be run by a user with with elevated privileges. 
+    NOTE: The check/fix commands outlined in this section _MUST_ be run by a user with elevated privileges. 
 ```

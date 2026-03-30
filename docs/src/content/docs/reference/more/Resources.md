@@ -12,10 +12,10 @@ description: A resources reference.
 
 [macOS Security Compliance Project - 2020 PSU MacAdmins Campfire Session](https://www.youtube.com/watch?v=mpEBEelSWlI&list=PLRUboZUQxbyUyqkH7BFaQGAR7x51olLNt&index=17)
 
-## Apple training
+## Apple Training
 [Developing your Mac Compliance Strategy](https://it-training.apple.com/tutorials/apt-deployment#developing-your-mac-compliance-strategy)
 
-## Additional resources
+## Additional Resources
 [Jamf Compliance Editor](https://trusted.jamf.com/docs/establishing-compliance-baselines)
 
 [[Lesson 6\] macOS Security Compliance Project - Jamf 170 Course](https://youtu.be/pYDfrYQrfqc?si=BnJqQqbsRcYf7DNX)
