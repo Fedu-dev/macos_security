@@ -24,7 +24,7 @@ drwxr-xr-x  3 501  20       96 Jan 19 15:23 build/800-53r5_moderate/preferences
 -rw-r--r--  1 501  20  13688 Jan 19 15:23 build/800-53r5_moderate/preferences/org.800-53r5_moderate.audit.plist
 ```
 
-When you generate the compliance script, the process creates an `org.{baseline}.audit.plist` file. This file represents the structure for implementing exemptions. See the section on [Exemptions](https://github.com/usnistgov/macos_security/wiki/exemptions) for more information.
+When you generate the compliance script, the process creates an `org.{baseline}.audit.plist` file. You use this file to implement exemptions. See the section on [Exemptions](https://github.com/usnistgov/macos_security/wiki/exemptions) for more information.
 
 You can run the `{baseline}_compliance.sh` script interactively or with the --check/--fix/--cfc flags. To run the script interactively, use the following command:
 
@@ -47,7 +47,7 @@ Enter choice [ 1 - 4 ]
 **📌 NOTE**\
 The `--cfc` flag triggers a check/fix/check when you run the compliance script.
 
-After running the script, the results write to `/Library/Preferences/org.{baseline}.audit.plist` and `/Library/Logs/{baseline}_baseline.log`.
+After you run the script, the results write to `/Library/Preferences/org.{baseline}.audit.plist` and `/Library/Logs/{baseline}_baseline.log`.
 
 **📌 NOTE**\
 You must run a successful compliance scan before the script can remediate non-compliant settings.

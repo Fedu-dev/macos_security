@@ -3,7 +3,7 @@ title: Resources
 description: A resources reference.
 ---
 
-## mSCP presentations
+## mSCP Presentations
 [Implementing MSCP using Jamf Pro | JNUC 2023](https://www.youtube.com/watch?v=hCq4PbLX0Tc)
 
 [Using the NIST macOS Security Toolchain to Implement Security Benchmarks | JNUC 2022](https://www.youtube.com/watch?v=0F2JhCJ_RaI)

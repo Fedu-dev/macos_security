@@ -33,10 +33,10 @@ The baselines directory contains the defined baseline files for:
 * A baseline for all the rules in this repository
 
 ### build
-The build directory stores generated outputs (e.g., documents, mobileconfig).
+The build directory stores generated outputs such as documents and mobileconfig files.
 
 ### custom
-Use the custom directory to create tailored versions of the rules and sections files to meet your organization's requirements. YAML files in this folder take priority when you run generate_guidance.py.
+Use the custom directory to create tailored versions of the rules and sections files to meet your organization's requirements. YAML files in this folder take priority when you run `generate_guidance.py`.
 
 **📌 NOTE**\
 The filenames must remain the same as the original YAML filenames.

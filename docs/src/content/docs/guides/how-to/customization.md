@@ -3,7 +3,7 @@ title: Customization
 description: A customization reference.
 ---
 
-The project supports modifying existing rules and adding new rules to a baseline to meet your organization's requirements. For existing rules, keep only the fields you are customizing. This ensures that your custom rules continue working as the project updates, including updates for future OS releases. Where [tailoring](https://github.com/usnistgov/macos_security/wiki/Tailoring) selects which rules to include in a benchmark, customizing modifies the rules themselves.
+The project supports modifying existing rules and adding new rules to a baseline to meet your organization's requirements. For existing rules, keep only the fields you are customizing. This ensures that your custom rules continue working as the project updates, including for future OS releases. Where [tailoring](https://github.com/usnistgov/macos_security/wiki/Tailoring) selects which rules to include in a benchmark, customizing modifies the rules themselves.
 
 To modify an existing rule, do the following:
 
@@ -34,7 +34,7 @@ To add a new rule, follow these steps:
 
 **Use Case:**
 
-If you want to include a custom version of a rule that still explains the control but does not include a check, result, or fix, see below. Adding the `manual` tag to the custom rule also ensures it does not appear in the compliance script.
+If you want to include a custom version of a rule that still explains the control but does not include a check, result, or fix, see below. Adding the `manual` tag to the custom rule also ensures the rule does not appear in the compliance script.
 
 **Example Rule (No Check/Result/Fix)**
 

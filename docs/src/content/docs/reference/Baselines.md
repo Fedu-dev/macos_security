@@ -3,7 +3,7 @@ title: Baselines
 description: A baselines reference.
 ---
 
-Use baseline files to create the guide, scripts, and mobileconfig files. Each baseline defines the associated controls that meet a given security profile.
+You use baseline files to create the guide, scripts, and mobileconfig files. Each baseline defines the associated controls that meet a given security profile.
 
 **title**
 

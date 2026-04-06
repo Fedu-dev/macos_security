@@ -21,22 +21,22 @@ Every rule will have a check. Most rules should be able to be validated and chec
 Expected results from the check.
 
 **fix**
-The fix will appear in a document when generated. If a fix includes `[source,bash]` the fix will be used for generating the script to enforce the rule.
+The fix appears in a document when generated. If a fix includes `[source,bash]`, the script uses it to enforce the rule.
 
 **references**
-The references include a CCE and a mapping of the security frameworks, guidance, and individual controls, which have been mapped to the rule.
+The references include a CCE and a mapping of the security frameworks, guidance, and individual controls that apply to the rule.
 
 **macos**
 The version of macOS for which this rule is validated.
 
 **odv**
-Sets Organization Defined Values. If a rule falls under this designation, the odv section will/should be added. At a minimum this field should contain a hint (provides a description when tailoring a baseline) and a default value which replaces the $ODV variable.
+Sets Organization Defined Values. If a rule falls under this designation, add the odv section. At a minimum, this field should contain a hint (provides a description when tailoring a baseline) and a default value that replaces the $ODV variable.
 
 **tags**
-Tags are keywords used to categorize and identify related rules and can be added to or modified as needed. Tags can also be used to make index-based searching of the rules faster and easier.
+Tags are keywords used to categorize and identify related rules. You can add or modify them as needed. Tags also make index-based searching of the rules faster and easier.
 
 **mobileconfig**
-The `mobileconfig` and `mobileconfig_info` are related. If `mobileconfig` is set to "true", the information required for creating the mobileconfig configuration profile is required in the `mobileconfig_info` area. 
+The `mobileconfig` and `mobileconfig_info` fields are related. If `mobileconfig` is set to "true", you must provide the configuration profile information in the `mobileconfig_info` field. 
 
 ## Example
 

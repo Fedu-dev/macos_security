@@ -7,7 +7,7 @@ description: A contributing reference.
 These operating rules describe and govern NIST’s management of this repository and contributors’ responsibilities. NIST reserves the right to modify this policy at any time.
 
 ## Criteria for Contributions and Feedback
-This is a moderated platform. NIST only accepts contributions submitted per the terms of the license file. Contributors may submit links or materials for hosting in the repository. Upon submission, materials become public and are considered publicly available information, unless noted in the license file. 
+This is a moderated platform. NIST only accepts contributions submitted per the terms of the license file. Contributors may submit links or materials for hosting in the repository. Upon submission, materials become public and are publicly available information, unless noted in the license file. 
 
 NIST reserves the right to reject, remove, or edit any contribution or feedback, including anything that: 
 
@@ -61,17 +61,16 @@ Issues submitted that are single words or irrelevant to the development of the p
 
 ## Contributing Code
 
-The macOS Security Compliance Project uses a typical GitHub fork and pull request [workflow](https://guides.github.com/introduction/flow/). Learn more about [cloning a GitHub repository](https://help.github.com/articles/cloning-a-repository/).
-Learn more about [GitHub pull requests](https://help.github.com/articles/about-pull-requests/). To establish a development environment for contributing to the project, you must do the following:
+The macOS Security Compliance Project uses a typical GitHub fork and pull request [workflow](https://guides.github.com/introduction/flow/). Learn more about [cloning a GitHub repository](https://help.github.com/articles/cloning-a-repository/) and [GitHub pull requests](https://help.github.com/articles/about-pull-requests/). To set up a development environment for contributing to the project, follow these steps:
 
 1. Before you start working on a fix it’s a good practice to leave a comment in the issue that you work on the fix so other contributors know that the fix is in progress. 
-2. Fork the macOS Security Compliance Project repository to your personal workspace. Please refer to the Github [guide on forking a repository](https://help.github.com/articles/fork-a-repo/) for more details.
-3. Create a feature branch from the master branch for making changes. You can [create a branch in your personal repository](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) directly on GitHub or create the branch using a Git client. For example, the git branch working command can be used to create a branch named working.
-4. You will need to make your modifications by adding, removing, and changing the content in the branch, then staging your changes using the `git add` and `git rm` commands.
-5. Once you have staged your changes, you will need to commit them. When committing, you will need to include a commit message. The commit message should describe the nature of your changes (e.g., added new feature X which supports Y). You can also reference an issue from the repository by using the hash symbol. For example, to reference issue #34, you would include the text "#34". The full command would be: git commit -m "added new feature X which supports Y addressing issue #34". 
+2. Fork the macOS Security Compliance Project repository to your personal workspace. Refer to the GitHub [guide on forking a repository](https://help.github.com/articles/fork-a-repo/) for more details.
+3. Create a feature branch from the master branch for making changes. You can [create a branch in your personal repository](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) directly on GitHub or create the branch using a Git client. For example, use the `git branch working` command to create a branch named working.
+4. Make your modifications by adding, removing, and changing content in the branch. Then stage your changes using the `git add` and `git rm` commands.
+5. Once you have staged your changes, commit them with a descriptive message about the nature of your changes (e.g., added new feature X which supports Y). You can reference an issue by using the hash symbol. For example: `git commit -m "added new feature X which supports Y addressing issue #34"`. 
 6. Next, you must push your changes to your personal repo. You can do this with the command: `git push`.
 7. Finally, you can create a pull request. Make sure to [link the pull request to an issue](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue) using a keyword
 
 ## Contributor License Agreement
 
-By contributing, you agree that your contributions will be licensed under Creative Commons Attribution 4.0 International Public License ([CC By 4.0](https://creativecommons.org/licenses/by/4.0/)).
+By contributing, you agree that your contributions are licensed under the Creative Commons Attribution 4.0 International Public License ([CC By 4.0](https://creativecommons.org/licenses/by/4.0/)).
