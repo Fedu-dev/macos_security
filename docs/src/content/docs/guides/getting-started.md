@@ -19,7 +19,7 @@ description: A getting-started reference.
 
 ## Getting Started
 
-To work locally, first clone into the repository and install the required Python3 modules and Ruby gems:
+To work locally, first clone the repository and install the required Python3 modules and Ruby gems:
 
 ```bash
 git clone https://github.com/usnistgov/macos_security.git

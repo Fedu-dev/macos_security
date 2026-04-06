@@ -3,15 +3,15 @@ title: Tailoring
 description: A tailoring reference.
 ---
 
-The project makes it simple for organizations to construct a tailored benchmark whether starting from one of the NIST 800-53 control baselines, or customizing an already established benchmark. Tailoring a benchmark is different than customizing specific rules. See [Customization](https://github.com/usnistgov/macos_security/wiki/Customization) to learn more.
+The project makes it simple for organizations to construct a tailored benchmark. You can start from one of the NIST 800-53 control baselines or customize an already established benchmark. Tailoring a benchmark is different than customizing specific rules. See [Customization](https://github.com/usnistgov/macos_security/wiki/Customization) to learn more.
 
 **Organization Defined Values**
 
-Organization Defined Values, or ODVs, are values determined for controls that meet both the security and functional requirements in an organization. Benchmark authors, like DISA and CIS provide these values for their respective published guidance. In the project, we include recommended values, as well as the defined values for the DISA STIG and CIS Benchmarks as part of the ODV field in the YAML.
+Organization Defined Values, or ODVs, are values determined for controls that meet both the security and functional requirements in an organization. Benchmark authors like DISA and CIS provide these values for their respective published guidance. The project includes recommended values, as well as the defined values for the DISA STIG and CIS Benchmarks, as part of the ODV field in the YAML.
 
 ## Tailoring a Benchmark
 
-Running the generate_baseline script with the new `-t` argument will step you through the tailoring process. The process will start by prompting for the following:
+Running the generate_baseline script with the `-t` argument steps you through the tailoring process. The process starts by prompting for the following:
 
 * Benchmark Name
 * Author’s Name
@@ -26,23 +26,23 @@ The inclusion of any given rule is a risk-based-decision (RBD).  While each rule
 You will be prompted to include each rule, and for those with specific organizational defined values (ODV), you will be prompted for those as well.
 ```
 
-Once completed, you will be prompted whether or not to include each rule in your benchmark. 
+Once completed, you are prompted whether or not to include each rule in your benchmark. 
 
 ```
 Would you like to include the rule for "audit_acls_files_configure" in your benchmark? [Y/n/all/?]:
 ```
 
 **📌 NOTE**\
-The `?` option with display additional details about the rule, to help an organization decide if it meets their requirements.
+The `?` option displays additional details about the rule, to help you decide if it meets your organization's requirements.
 
-If a rule contains an ODV, you will be prompted to assign a value that meets your organization’s requirements.   
+If a rule contains an ODV, you are prompted to assign a value that meets your organization’s requirements.   
 
 ```
 Number of failed attempts.
 Enter the ODV for "pwpolicy_account_lockout_enforce" or press Enter for the recommended value (3):
 ```
 
-After the tailoring process is completed, a new yaml file will be created in `build/baselines` and custom rules containing their ODV values will be created in `custom/rules/`. Now you can run the generate guidance script against that tailored benchmark.
+After the tailoring process completes, the script creates a new YAML file in `build/baselines` and custom rules containing their ODV values in `custom/rules/`. You can then run the generate guidance script against that tailored benchmark.
 
 ```
 ./scripts/generate_guidance.py build/baselines/MyOrgs_Benchmark.yaml -p -s -x

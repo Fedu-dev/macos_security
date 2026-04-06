@@ -8,11 +8,11 @@ To generate SCAP, OVAL, or XCCDF run the `generate_scap.py` script.
 **❗ IMPORTANT**\
 Never work off the `main` branch, always `git checkout` one of the OS branches.
 
-When you run `generate_scap.py` with no arguments, it generates an SCAP 1.3 document with an XCCDF profile for every baseline available as a tag in the `rules` and `custom` folder.
+When you run `generate_scap.py` with no arguments, it generates an SCAP 1.3 document. This includes an XCCDF profile for every baseline available as a tag in the `rules` and `custom` folder.
 
 Run `generate_scap.py` with the `-x` argument to generate an XCCDF document, or with the `-o` argument to generate an OVAL document.
 
-To generate documents for a specific baseline, use the `-b` argument. The baselines that `generate_scap.py` recognizes are tags listed on rule files in `rules` and `custom`. You can list available baselines with the `-l` argument.
+To generate documents for a specific baseline, use the `-b` argument. The script recognizes baselines as tags listed on rule files in `rules` and `custom`. You can list available baselines with the `-l` argument.
 
 **Built-in Baseline**
 

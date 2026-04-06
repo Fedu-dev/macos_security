@@ -3,7 +3,7 @@ title: Generate Configuration Profiles
 description: A generate-configuration-profiles reference.
 ---
 
-Add the `-p` flag to the `generate-guidance.py` script to generate configuration profiles and the corresponding plists for rules that have `mobileconfig` set to true in the rules YAML file.
+Add the `-p` flag to the `generate-guidance.py` script to generate configuration profiles. This creates the corresponding plists for rules that have `mobileconfig` set to true in the rules YAML file.
 
 ```yaml
 mobileconfig: true
@@ -18,7 +18,7 @@ mobileconfig_info:
 ➜  macos_security git:(sequoia) ./scripts/generate_guidance.py -p build/baselines/800-53r5_moderate.yaml
 ```
 
-Add the `-H` flag to the `generate-guidance.py` script to generate signed configuration profiles as well as unsigned profiles for viewing. To sign the profiles, provide the certificate subject key ID (not the SHA-1 hash) of the code signing certificate.
+Add the `-H` flag to the `generate-guidance.py` script to generate signed configuration profiles as well as unsigned profiles for viewing. To sign the profiles, provide the certificate subject key ID (not the SHA-1 hash) of your code signing certificate.
 
 **Get the Subject Key ID for Signing**
 

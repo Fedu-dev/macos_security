@@ -5,7 +5,7 @@ description: A vendor attribution reference.
 
 The following vendors have contributed to or implemented various portions of the macOS Security Compliance Project in their products.
 
-Product and/or vendor acknowledgement does not constitute recommendation or endorsement by the National Institute of Standards and Technology. 
+Product or vendor acknowledgement does not constitute recommendation or endorsement by the National Institute of Standards and Technology. 
 
 **Apple - Apple Professional Services**
 

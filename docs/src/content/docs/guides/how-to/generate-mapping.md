@@ -3,7 +3,7 @@ title: Generate Mapping
 description: A generate-mapping reference.
 ---
 
-The generate mapping script allows you to quickly create custom rules and baselines for a compliance framework not published by the project. To do this, create a CSV that maps controls from one framework (Column 1) to one supported by the project (Column 2).
+The generate mapping script lets you quickly create custom rules and baselines for a compliance framework not published by the project. To do this, create a CSV that maps controls from one framework (Column 1) to one supported by the project (Column 2).
 
 **CSV Format**
 ```csv

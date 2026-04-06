@@ -47,7 +47,7 @@ Generating PDF file from AsciiDoc...
 
 ## generate_baseline.py
 
-The generate baseline script creates a baseline.yaml file that you can use for content generation. The output file is saved under `build/baselines`.
+The generate baseline script creates a baseline.yaml file that you can use for content generation. The script saves the output file under `build/baselines`.
 
 ```bash
 python3 scripts/generate_baseline.py -h

@@ -3,7 +3,7 @@ title: Generate Declarative Device Management Components
 description: A generate-declarative-components reference.
 ---
 
-Add the `-D` flag to the `generate_guidance.py` script to generate all the necessary components for rules that support declarative device management (DDM). Depending on the configurations you choose, the output may differ.
+Add the `-D` flag to the `generate_guidance.py` script to generate all necessary components for rules that support declarative device management (DDM). Depending on the configurations you choose, the output may differ.
 
 **Generate DDM Content**
 
