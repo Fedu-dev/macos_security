@@ -3,7 +3,7 @@ title: Compliance Script
 description: A compliance-script reference.
 ---
 
-Add the `-s` flag to the `generate-guidance.py` script to generate a compliance script, written for Z Shell (zsh), that you can use to check or fix a system.
+Add the `-s` flag to the `generate-guidance.py` script to generate a compliance script. The script is written for Z Shell (zsh) and you can use it to check or fix a system.
 
 ```
 ➜  macos_security git:(sequoia) ./scripts/generate_guidance.py -s baselines/800-53r5_moderate.yaml
@@ -47,7 +47,7 @@ Enter choice [ 1 - 4 ]
 **📌 NOTE**\
 The `--cfc` flag triggers a check/fix/check when you run the compliance script.
 
-After you run the script, the results write to `/Library/Preferences/org.{baseline}.audit.plist` and `/Library/Logs/{baseline}_baseline.log`.
+After you run the script, it writes the results to `/Library/Preferences/org.{baseline}.audit.plist` and `/Library/Logs/{baseline}_baseline.log`.
 
 **📌 NOTE**\
 You must run a successful compliance scan before the script can remediate non-compliant settings.
@@ -63,7 +63,7 @@ Thu Jan 21 15:09:41 UTC 2021 auth_smartcard_enforce has an exemption (Reason: Br
 ```
 
 **💡 TIP**\
-To add a custom reference in front of the rule in the `{baseline}_baseline.log` use the `-r` flag along with the custom reference **(case sensitive)** when running the `generate_guidance.py` script.
+To add a custom reference in front of the rule in the `{baseline}_baseline.log`, use the `-r` flag when running the `generate_guidance.py` script. The custom reference is **(case sensitive)**.
 
 ## Compliance Script Command Line Argument Reference
 
