@@ -23,10 +23,10 @@ Enter a name for your tailored benchmark or press Enter for the default value (8
 Enter your name: Allen Golbig
 Enter your organization: MyOrg
 The inclusion of any given rule is a risk-based-decision (RBD).  While each rule is mapped to an 800-53 control, deploying it in your organization should be part of the decision-making process.
-You will be prompted to include each rule, and for those with specific organizational defined values (ODV), you will be prompted for those as well.
+The script prompts you to include each rule. For rules with specific organizational defined values (ODV), it also prompts you to set those values.
 ```
 
-Once completed, you are prompted whether or not to include each rule in your benchmark. 
+Once completed, the script prompts you to include or exclude each rule in your benchmark. 
 
 ```
 Would you like to include the rule for "audit_acls_files_configure" in your benchmark? [Y/n/all/?]:
@@ -35,7 +35,7 @@ Would you like to include the rule for "audit_acls_files_configure" in your benc
 **📌 NOTE**\
 The `?` option displays additional details about the rule, to help you decide if it meets your organization's requirements.
 
-If a rule contains an ODV, you are prompted to assign a value that meets your organization’s requirements.   
+If a rule contains an ODV, the script prompts you to assign a value that meets your organization’s requirements.   
 
 ```
 Number of failed attempts.
