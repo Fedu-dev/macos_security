@@ -3,7 +3,7 @@ title: Compliance Script
 description: A compliance-script reference.
 ---
 
-Add the `-s` flag to the `generate-guidance.py` script to generate a compliance script. The script is written for Z Shell (zsh) and you can use it to check or fix a system.
+Add the `-s` flag to the `generate-guidance.py` script to generate a compliance script. The script uses Z Shell (zsh) and you can run it to check or fix a system.
 
 ```
 ➜  macos_security git:(sequoia) ./scripts/generate_guidance.py -s baselines/800-53r5_moderate.yaml
@@ -63,12 +63,12 @@ Thu Jan 21 15:09:41 UTC 2021 auth_smartcard_enforce has an exemption (Reason: Br
 ```
 
 **💡 TIP**\
-To add a custom reference in front of the rule in the `{baseline}_baseline.log`, use the `-r` flag when running the `generate_guidance.py` script. The custom reference is **(case sensitive)**.
+To add a custom reference in front of the rule in the `{baseline}_baseline.log`, use the `-r` flag when you run the `generate_guidance.py` script. The custom reference value is **case sensitive**.
 
 ## Compliance Script Command Line Argument Reference
 
 **📌 NOTE**\
-The compliance script expects Z Shell (zsh). Running it with `sh` or `bash` results in errors.
+The compliance script requires Z Shell (zsh). Running it with `sh` or `bash` produces errors.
 
 ```zsh
 ./mscp_compliance.sh Usage
